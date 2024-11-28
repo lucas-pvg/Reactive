@@ -1,0 +1,81 @@
+:root {
+  --blue-grad: linear-gradient(90deg, #3a4089, #4e55a1, #6a73d3);
+  --blue-base: #4e55a1;
+  --blue-inverse: #6a73d3;
+  --red-base: #e42c3a;
+  --red-inverse: #e56973;
+  --yellow-base: #f0b700;
+  --yellow-inverse: #e9cd75;
+  --base-black: #333333;
+  --base-gray: #323741;
+  --base-white: #ffffff;
+  --background-base: #f5f5f6;
+  --background-inverse: #262a32;
+  --background-modal: color-mix(in srgb, var(--base-black) 85%, transparent);
+  --outline-base: #bbbbbb;
+  --outline-inverse: #4d5461;
+  --shadow-base: #22222240;
+  --shadow-inverse: #1f222840;
+  --speed: 500ms;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Karla', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-base);
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
